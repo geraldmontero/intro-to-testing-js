@@ -18,6 +18,8 @@ describe('sayHello unit test ', function() {
     it('should be a defined function', function () {
         expect(typeof sayHello).toBeDefined();
     });
-
+    it('should return a string', function () {
+        expect(typeof sayHello()).toBe("string")
+    });
 
 });
